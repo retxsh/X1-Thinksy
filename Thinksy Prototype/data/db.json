@@ -1,0 +1,450 @@
+{
+  "users": {
+    "usr_google_default": {
+      "id": "usr_google_default",
+      "name": "Alex Chen",
+      "email": "alex.chen@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&auto=format&fit=crop&q=80",
+      "isGoogle": true,
+      "friendCode": "THINK-ALEX-7",
+      "coins": 10380,
+      "highScore": 5,
+      "dailyStreak": 2,
+      "longestStreak": 5,
+      "lastActiveDate": "2026-11-22",
+      "matchesPlayed": 50,
+      "matchesWon": 45,
+      "totalPoints": 223.5,
+      "unlockedThemes": [
+        "default",
+        "arcade"
+      ],
+      "activeTheme": "default",
+      "unlockedAvatars": [
+        "default"
+      ],
+      "activeAvatar": "default",
+      "achievements": [
+        {
+          "id": "first_win",
+          "name": "First Signal",
+          "desc": "Win your first match",
+          "earned": true,
+          "reward": 50
+        },
+        {
+          "id": "streak_3",
+          "name": "Streak Ignited",
+          "desc": "Reach a 3-day streak",
+          "earned": true,
+          "reward": 100
+        },
+        {
+          "id": "perfect_round",
+          "name": "Eagle Eye",
+          "desc": "Solve a round using 3 or fewer clues",
+          "earned": true,
+          "reward": 75
+        },
+        {
+          "id": "hard_mode",
+          "name": "System Architect",
+          "desc": "Win a match on Hard difficulty",
+          "earned": false,
+          "reward": 150
+        },
+        {
+          "id": "coin_collector",
+          "name": "Logic Hoarder",
+          "desc": "Accumulate 500 coins",
+          "earned": false,
+          "reward": 100
+        }
+      ],
+      "matchHistory": []
+    }
+  },
+  "friends": [
+    {
+      "id": "usr_maya",
+      "name": "Maya Patel",
+      "email": "maya.p@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "friendCode": "THINK-MAYA-4",
+      "coins": 620,
+      "highScore": 5,
+      "dailyStreak": 6,
+      "longestStreak": 8,
+      "matchesWon": 22,
+      "matchesPlayed": 25,
+      "totalPoints": 98.5
+    },
+    {
+      "id": "usr_liam",
+      "name": "Liam Vance",
+      "email": "liam.v@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80",
+      "friendCode": "THINK-LIAM-2",
+      "coins": 480,
+      "highScore": 4.5,
+      "dailyStreak": 4,
+      "longestStreak": 6,
+      "matchesWon": 17,
+      "matchesPlayed": 21,
+      "totalPoints": 76
+    },
+    {
+      "id": "usr_elena",
+      "name": "Elena Rostova",
+      "email": "elena.r@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
+      "friendCode": "THINK-ELEN-9",
+      "coins": 310,
+      "highScore": 4,
+      "dailyStreak": 2,
+      "longestStreak": 5,
+      "matchesWon": 14,
+      "matchesPlayed": 19,
+      "totalPoints": 61.5
+    },
+    {
+      "id": "usr_marcus",
+      "name": "Marcus Brody",
+      "email": "m.brody@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80",
+      "friendCode": "THINK-MARC-1",
+      "coins": 220,
+      "highScore": 3.5,
+      "dailyStreak": 1,
+      "longestStreak": 4,
+      "matchesWon": 9,
+      "matchesPlayed": 15,
+      "totalPoints": 42
+    },
+    {
+      "id": "usr_sam",
+      "name": "Samira Khan",
+      "email": "samira.k@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=120&auto=format&fit=crop&q=80",
+      "friendCode": "THINK-SAMI-8",
+      "coins": 150,
+      "highScore": 3,
+      "dailyStreak": 0,
+      "longestStreak": 3,
+      "matchesWon": 6,
+      "matchesPlayed": 12,
+      "totalPoints": 28
+    },
+    {
+      "id": "usr_david",
+      "name": "David Kim",
+      "email": "david.k@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=120&auto=format&fit=crop&q=80",
+      "friendCode": "THINK-DAVI-3",
+      "coins": 180,
+      "highScore": 3.5,
+      "dailyStreak": 2,
+      "longestStreak": 4,
+      "matchesWon": 5,
+      "matchesPlayed": 10,
+      "totalPoints": 24.5
+    },
+    {
+      "id": "usr_zoe",
+      "name": "Zoe Washington",
+      "email": "zoe.w@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&auto=format&fit=crop&q=80",
+      "friendCode": "THINK-ZOEW-5",
+      "coins": 140,
+      "highScore": 3,
+      "dailyStreak": 1,
+      "longestStreak": 3,
+      "matchesWon": 4,
+      "matchesPlayed": 8,
+      "totalPoints": 19
+    },
+    {
+      "id": "usr_carlos",
+      "name": "Carlos Mendez",
+      "email": "carlos.m@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=120&auto=format&fit=crop&q=80",
+      "friendCode": "THINK-CARL-7",
+      "coins": 110,
+      "highScore": 2.5,
+      "dailyStreak": 1,
+      "longestStreak": 2,
+      "matchesWon": 3,
+      "matchesPlayed": 7,
+      "totalPoints": 15.5
+    },
+    {
+      "id": "usr_nina",
+      "name": "Nina Petrov",
+      "email": "nina.p@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=120&auto=format&fit=crop&q=80",
+      "friendCode": "THINK-NINA-9",
+      "coins": 90,
+      "highScore": 2,
+      "dailyStreak": 0,
+      "longestStreak": 2,
+      "matchesWon": 2,
+      "matchesPlayed": 5,
+      "totalPoints": 11
+    }
+  ],
+  "globalTop": [
+    {
+      "id": "usr_top1",
+      "name": "Dr. Sarah Lin",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&auto=format&fit=crop&q=80",
+      "badge": "Grandmaster",
+      "highScore": 5,
+      "dailyStreak": 14,
+      "longestStreak": 18,
+      "matchesWon": 54,
+      "totalPoints": 248
+    },
+    {
+      "id": "usr_top2",
+      "name": "Kenji Sato",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=120&auto=format&fit=crop&q=80",
+      "badge": "Master",
+      "highScore": 5,
+      "dailyStreak": 11,
+      "longestStreak": 15,
+      "matchesWon": 46,
+      "totalPoints": 212.5
+    },
+    {
+      "id": "usr_top3",
+      "name": "Amara Okafor",
+      "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=120&auto=format&fit=crop&q=80",
+      "badge": "Specialist",
+      "highScore": 4.5,
+      "dailyStreak": 9,
+      "longestStreak": 12,
+      "matchesWon": 38,
+      "totalPoints": 175
+    },
+    {
+      "id": "usr_top4",
+      "name": "Viktor Morozov",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80",
+      "badge": "Specialist",
+      "highScore": 5,
+      "dailyStreak": 8,
+      "longestStreak": 11,
+      "matchesWon": 35,
+      "totalPoints": 158
+    },
+    {
+      "id": "usr_top5",
+      "name": "Chloe Dubois",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "badge": "Specialist",
+      "highScore": 4.5,
+      "dailyStreak": 7,
+      "longestStreak": 10,
+      "matchesWon": 31,
+      "totalPoints": 142.5
+    },
+    {
+      "id": "usr_top6",
+      "name": "Lucas Andrade",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80",
+      "badge": "Expert",
+      "highScore": 4.5,
+      "dailyStreak": 6,
+      "longestStreak": 9,
+      "matchesWon": 28,
+      "totalPoints": 129
+    },
+    {
+      "id": "usr_top7",
+      "name": "Priya Sharma",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
+      "badge": "Expert",
+      "highScore": 4.5,
+      "dailyStreak": 8,
+      "longestStreak": 9,
+      "matchesWon": 26,
+      "totalPoints": 118.5
+    },
+    {
+      "id": "usr_top8",
+      "name": "Soren Lindqvist",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=120&auto=format&fit=crop&q=80",
+      "badge": "Expert",
+      "highScore": 4,
+      "dailyStreak": 5,
+      "longestStreak": 8,
+      "matchesWon": 23,
+      "totalPoints": 106
+    },
+    {
+      "id": "usr_top9",
+      "name": "Yasmine Al-Mansoor",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=120&auto=format&fit=crop&q=80",
+      "badge": "Analyst",
+      "highScore": 4,
+      "dailyStreak": 6,
+      "longestStreak": 7,
+      "matchesWon": 21,
+      "totalPoints": 97.5
+    },
+    {
+      "id": "usr_top10",
+      "name": "Mateo Rossi",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=120&auto=format&fit=crop&q=80",
+      "badge": "Analyst",
+      "highScore": 4,
+      "dailyStreak": 4,
+      "longestStreak": 6,
+      "matchesWon": 19,
+      "totalPoints": 89
+    }
+  ],
+  "shop": [
+    {
+      "id": "theme_arcade",
+      "type": "theme",
+      "name": "Emerald Arcade",
+      "cost": 0,
+      "desc": "Foundational Thinksy emerald phosphor and deep carbon matrix",
+      "color": "#68c07a",
+      "icon": "🕹️",
+      "preview": "🕹️"
+    },
+    {
+      "id": "theme_cyberpunk",
+      "type": "theme",
+      "name": "Cyberpunk Neon",
+      "cost": 200,
+      "desc": "Electric cyan and neon violet palette for futuristic codebreakers",
+      "color": "#00f0ff",
+      "icon": "⚡",
+      "preview": "⚡"
+    },
+    {
+      "id": "theme_midnight",
+      "type": "theme",
+      "name": "Midnight Obsidian",
+      "cost": 300,
+      "desc": "Stealth deep slate with crisp 24K gold accents",
+      "color": "#ffd700",
+      "icon": "🌙",
+      "preview": "🌙"
+    },
+    {
+      "id": "theme_solar",
+      "type": "theme",
+      "name": "Solar Flare",
+      "cost": 400,
+      "desc": "Radiant amber and cosmic orange heat signature",
+      "color": "#ff7b00",
+      "icon": "☀️",
+      "preview": "☀️"
+    },
+    {
+      "id": "theme_ultraviolet",
+      "type": "theme",
+      "name": "Ultraviolet Chamber",
+      "cost": 450,
+      "desc": "Vibrant neon purple and deep amethyst luminescence",
+      "color": "#c084fc",
+      "icon": "🔮",
+      "preview": "🔮"
+    },
+    {
+      "id": "theme_matrix",
+      "type": "theme",
+      "name": "Phosphor Matrix",
+      "cost": 500,
+      "desc": "Classic retro terminal green CRT phosphor glow",
+      "color": "#22c55e",
+      "icon": "📟",
+      "preview": "📟"
+    },
+    {
+      "id": "avatar_logic",
+      "type": "avatar",
+      "name": "Logic Core",
+      "cost": 0,
+      "desc": "The foundational atomic logic processor",
+      "icon": "⚛",
+      "preview": "⚛"
+    },
+    {
+      "id": "avatar_quantum",
+      "type": "avatar",
+      "name": "Quantum Core",
+      "cost": 150,
+      "desc": "Entangled particle nexus for multi-state deduction",
+      "icon": "💠",
+      "preview": "💠"
+    },
+    {
+      "id": "avatar_neural",
+      "type": "avatar",
+      "name": "Neural Net",
+      "cost": 250,
+      "desc": "Synaptic intelligence for adaptive pattern recognition",
+      "icon": "🧠",
+      "preview": "🧠"
+    },
+    {
+      "id": "avatar_master",
+      "type": "avatar",
+      "name": "Chamber Master",
+      "cost": 350,
+      "desc": "Crowned champion of the signal transformation chambers",
+      "icon": "👑",
+      "preview": "👑"
+    },
+    {
+      "id": "avatar_cipher",
+      "type": "avatar",
+      "name": "Cipher Key",
+      "cost": 300,
+      "desc": "Master keyholder who unlocks hidden algorithmic rules",
+      "icon": "🗝️",
+      "preview": "🗝️"
+    },
+    {
+      "id": "avatar_oracle",
+      "type": "avatar",
+      "name": "High Oracle",
+      "cost": 450,
+      "desc": "Omniscient visionary predicting systems before clues end",
+      "icon": "👁️",
+      "preview": "👁️"
+    },
+    {
+      "id": "badge_architect",
+      "type": "badge",
+      "name": "System Architect",
+      "cost": 200,
+      "desc": "Exclusive title badge for pattern decoders",
+      "icon": "⌘",
+      "preview": "⌘"
+    },
+    {
+      "id": "badge_signal",
+      "type": "badge",
+      "name": "Signal Whisperer",
+      "cost": 250,
+      "desc": "Attuned to the faintest deterministic variations",
+      "icon": "📡",
+      "preview": "📡"
+    },
+    {
+      "id": "badge_speedster",
+      "type": "badge",
+      "name": "Clockwork Mind",
+      "cost": 300,
+      "desc": "Conqueror of high-speed Time Trial chambers",
+      "icon": "⏱️",
+      "preview": "⏱️"
+    }
+  ]
+}
