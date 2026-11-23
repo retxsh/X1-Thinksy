@@ -470,7 +470,7 @@ screens follow the same order: **navigation → purpose → primary content
 
 ## 7.1 Home
 
-```text
+```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
 │thinksy.       A GAME OF HIDDEN RULES              STREAK 3d   COINS 350   HELP   │
 ├──────────────────────────────────────────────────────────────────────────────────┤
@@ -503,7 +503,7 @@ screens follow the same order: **navigation → purpose → primary content
 
 ## 7.2 How to Play
 
-``` text
+```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
 │ THE GAME IN 30 SECONDS                                [ × ]                      │
 │ Three steps. One hidden rule.                                                    │
@@ -520,7 +520,7 @@ The modal teaches the mental model, not the answer to an active puzzle.
 
 ## 7.3 Match Setup
 
-``` text
+```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
 │ ← BACK                         THINKSY / MATCH SETUP       01 / 02               │
 ├──────────────────────────────────────────────────────────────────────────────────┤
@@ -549,7 +549,7 @@ selectable.
 
 ## 7.4 Match Loading
 
-``` text
+```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
 │                         [ SPINNER ]                                              │
 │                      Starting match…                                             │
@@ -563,7 +563,7 @@ error rather than an indefinite loading state.
 
 ## 7.5 Game Workspace
 
-```text
+```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
 │← EXIT MATCH                         THINKSY / CLASSIC                            │
 ├──────────────────────────────────────────────────────────────────────────────────┤
@@ -584,7 +584,8 @@ error rather than an indefinite loading state.
 ├──────────────────────────────────────────────────────────────────────────────────┤
 │YOUR EVIDENCE                                                                     │
 │01   2 → 8          02   4 → 14          03   6 → 20          + 2 EARLIER         │
-└──────────────────────────────────────────────────────────────────────────────────┘```
+└──────────────────────────────────────────────────────────────────────────────────┘
+```
 
 **Design intent:** The left panel is dedicated to experiments and evidence; the right panel is reserved for the final prediction. The scorebar keeps match constraints visible without competing with the task.
 
@@ -594,7 +595,7 @@ The interface displays the three most recent evidence rows and indicates when ea
 
 ## 7.6 Processing Feedback
 
-```text
+```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
 │01 / INVESTIGATE                                                                  │
 ├──────────────────────────────────────────────────────────────────────────────────┤
@@ -615,7 +616,7 @@ A fixed processing area prevents the workspace from shifting while a request is 
 
 ## 7.7 Round Result
 
-``` text
+```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
 │ ROUND 2 COMPLETE                                                                 │
 │                         [ ✓ ]                                                    │
@@ -632,7 +633,7 @@ rule and target output after the round is resolved.
 
 ## 7.8 Final Match Result
 
-```text
+```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
 │MATCH COMPLETE                                                                    │
 ├──────────────────────────────────────────────────────────────────────────────────┤
@@ -663,7 +664,7 @@ The final score is the primary result. Personal best, performance and earned coi
 
 ## 7.9 Profile
 
-``` text
+```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
 │ PLAYER PROFILE                                          [ × ]                    │
 │ [AVATAR] Player name                     Account label                           │
@@ -681,7 +682,7 @@ screen.
 
 ## 7.10 Leaderboard
 
-```text
+```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
 │THINKSY LEADERBOARD                                                               │
 │[ FRIENDS ]                                      [ GLOBAL TOP 10 ]                │
@@ -706,7 +707,7 @@ The player’s row is highlighted so their standing is easy to locate. Friends a
 
 ## 7.11 Rewards Shop
 
-```text
+```
 ┌──────────────────────────────────────────────────────────────────────────────────┐
 │REWARDS SHOP                                             BALANCE: 350 COINS       │
 │[ ALL ]             [ THEMES ]          [ AVATARS ]          [ BADGES ]           │
@@ -722,9 +723,16 @@ The player’s row is highlighted so their standing is easy to locate. Friends a
 │ [ BUY / EQUIP ]                       │ [ BUY / EQUIP ]                          │
 ├──────────────────────────────────────────────────────────────────────────────────┤
 │Each reward displays its category, price, ownership and equipped state.           │
-└──────────────────────────────────────────────────────────────────────────────────┘```
+└──────────────────────────────────────────────────────────────────────────────────┘
+```
 
 Reward cards use the same dimensions and information order. Each item communicates its category, preview, name, coin cost and current ownership/equipped state. Purchase and equip labels must reflect the item’s actual state; do not show a purchase action for an item already owned.
+
+# 8. Interaction Specifications
+
+This section defines the expected behaviour and feedback for the primary
+player actions across match setup, experimentation, prediction, timers,
+round progression, profile, leaderboards and rewards.
 
 ## 8.1 Match setup
 
